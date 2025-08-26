@@ -11,8 +11,8 @@ services:
       - PORT=4444
       - NODE_ENV=production
       - G_CLIENT_ID=Ov23ctMMaK2VAiXi4jjE
-      - G_CLIENT_SECRET=1af4768be3b3421b68e8cde85b23b8f124481b33
-      - JWT_SECRET=1af4768be3b3421b68e8cde85b23b8f124481b33
+      - G_CLIENT_SECRET=ad9cb34c1f4c4eefe1e77387afcbd92fb9a0d1c7
+      - JWT_SECRET=ad9cb34c1f4c4eefe1e77387afcbd92fb9a0d1c7
       - INIT_TABLE=true
       - ENABLE_CACHE=true
 
