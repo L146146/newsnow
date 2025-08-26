@@ -10,9 +10,9 @@ services:
       - HOST=0.0.0.0
       - PORT=4444
       - NODE_ENV=production
-      - G_CLIENT_ID=
-      - G_CLIENT_SECRET=
-      - JWT_SECRET=
+      - G_CLIENT_ID=Ov23li7NCUxx2YLgtix7
+      - G_CLIENT_SECRET=1af4768be3b3421b68e8cde85b23b8f124481b33
+      - JWT_SECRET=1af4768be3b3421b68e8cde85b23b8f124481b33
       - INIT_TABLE=true
       - ENABLE_CACHE=true
 
