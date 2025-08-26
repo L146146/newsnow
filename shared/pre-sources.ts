@@ -417,7 +417,7 @@ export const originSources = {
     "name": "谷歌",
     "type": "latest",
     "column": "china",
-    "home": "https://trends.google.com/trends/api/realtimetrends?geo=US&hl=en",
+    "home": "https://news.google.com/home?hl=th&gl=TH&ceid=TH:th",
     "color": "brown",
     "interval": 1800000,
     "title": "最热"
