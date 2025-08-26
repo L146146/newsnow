@@ -30,7 +30,7 @@ export default defineSource(async () => {
       return {
         id: `google-trend-${index}`,
         title: item.title.query,
-        url: item.articles[0]?.url || `https://www.google.com/search?q=${encodeURIComponent(item.title.query)}`,
+        url: item.articles[0]?.url || `https://news.google.com/home?hl=th&gl=TH&ceid=TH:th${encodeURIComponent(item.title.query)}`,
         extra: {
           traffic: item.formattedTraffic,
           image: item.image?.source,
