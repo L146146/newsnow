@@ -19,7 +19,7 @@ interface GoogleTrendsRes {
 export default defineSource(async () => {
   try {
     // 获取谷歌实时热搜数据（注意：实际使用可能需要代理或API密钥）
-    const rawData = await myFetch('https://trends.google.com/trends/api/realtimetrends?geo=US&hl=en')
+    const rawData = await myFetch('https://news.google.com/home?hl=th&gl=TH&ceid=TH:th')
     
     // 谷歌返回的响应前有一段垃圾字符，需要处理
     const jsonStr = rawData.slice(rawData.indexOf('{'))
