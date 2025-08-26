@@ -3,6 +3,6 @@ pages_build_output_dir = "dist/output/public"
 compatibility_date = "2024-10-03"
 
 [[d1_databases]]
-binding = "NEWSNOW_DB"
-database_name = "newsnow-db"
-database_id = "https://newsnow-5md.pages.dev/"
+binding = "newsnow"
+database_name = "<YOUR-DATABASE-NAME>"
+database_id = "af4292d8-5fa0-42c6-989e-21bbffd6feb3"
