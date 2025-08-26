@@ -413,6 +413,15 @@ export const originSources = {
       },
     },
   },
+  "google": {
+    "name": "谷歌",
+    "type": "latest",
+    "column": "china",
+    "home": "https://trends.google.com/trends/api/realtimetrends?geo=US&hl=en",
+    "color": "brown",
+    "interval": 1800000,
+    "title": "最热"
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
